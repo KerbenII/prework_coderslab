@@ -1,0 +1,23 @@
+* {
+	display:block;
+}
+label	{
+	color: gray;
+	font-size: 20px;
+}
+textarea	{
+	width:500px;
+	height:100px;
+	color:gray;
+}
+input[type=submit]{
+	margin-top:20px;
+	padding: 2px 40px;
+}
+input, textarea {
+	font-size:16px;
+}
+.inline *{
+	display:inline;
+	float:left;
+}

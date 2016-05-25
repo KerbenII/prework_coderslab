@@ -1,0 +1,15 @@
+a[href],p,h1, h2, h3, div, span, strong, u,ul, ol, table, img, iframe {
+	color: red;  
+	border-color: red; /* to nic nie daje ;-)*/
+	background-color: red; /* pewnie chodzi³o o to */
+	border: 1px solid red; /*albo o to */
+	width: 500px;  
+}
+
+.table, tr, td,th {
+	margin-top:50px;
+	color: black;
+	border: 1px solid black;
+	background-color:white;
+	width:auto;
+}

@@ -1,0 +1,49 @@
+* {
+	display:block;
+	margin: 5px 0px;
+	
+}
+h2 {
+	clear:both;
+}
+
+label	{
+	color: gray;
+	font-size: 20px;
+}
+textarea	{
+	width:500px;
+	height:100px;
+	color:gray;
+}
+input[type=submit]{
+	margin-top:20px;
+	padding: 2px 40px;
+	clear:both;
+}
+input, textarea {
+	font-size:16px;
+}
+input[type=checkbox], input[type=radio]{
+	margin-left:5px;
+}
+.inline li{ /*dlaczego jak usuną stąd */
+	display:inline;
+	float:left;
+	margin-left:-40px;
+	color: gray;
+	font-size:20px;
+	margin-right:44px;
+}
+.inline input{
+	display:inline;
+	float:right;
+} /*dotąd*/
+
+.inline * { /*i zostawię to, to checkboxy są przed polami?  xD*/
+	display:inline;
+	float:left;
+}
+input[type=text],input[type=date], input[type=password]{
+		margin-top:-2px;
+}
